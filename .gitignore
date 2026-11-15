@@ -147,3 +147,10 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Local runtime SQLite database files
+data/*.db
+data/*.db-wal
+data/*.db-shm
+next-env.d.ts
+
